@@ -1,0 +1,113 @@
+.popular-dishes-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9%;
+    gap: 12px;
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid red; */
+
+}
+.headerDiv{
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content:left;
+    height: 10vh;
+    /* border: 2px solid red; */
+
+}
+.popularDishesCards{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    /* gap: 15px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    /* border: 2px solid red; */
+
+}
+.popularDishesCards::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
+.scrollCards{
+    position: relative;
+    /* width: 55%; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    gap: 30px;
+    height: 65vh;
+    /* overflow: scroll; */
+    /* overflow-x: auto;ss */
+    /* border: 2px solid rgb(0, 255, 149) */
+
+}
+.popularDishesCard{
+     width: 380px;
+     border-radius: 12px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 11px;
+     /* height: 50vh; */
+     background-color: rgb(20, 26, 31);
+     /* border: 2px solid rgb(0, 204, 255); */
+     border: 4px solid rgb(23, 36, 39);
+
+
+}
+.popularDishesCard p{
+    width: 65%;
+    text-align: center;
+}
+.popularDishesCard .imgDiv{
+    width: 85%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border:  2px solid red; */
+
+}
+.imgDiv img {
+    width: 85%;
+    height: 30vh;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+
+    /* border:  2px solid red; */
+  }
+.popularDishesCard .lowerBtn{
+    width: 85%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content:space-between;
+    /* border:  2px solid red; */
+
+
+}
+.popularDishesCard .lowerBtn button{
+    width: 45%;
+    height: 6vh;
+    border-radius: 12px;
+    /* border:  5px solid #e8acf0;; */
+
+    color: white;
+    background-color: #e8acf0;
+}
