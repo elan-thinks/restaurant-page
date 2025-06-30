@@ -12,6 +12,8 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
+    hot: true, // Enable hot reload
+    open: true, // Optional: auto-opens the browse
     watchFiles: ["./src/template.html"],
   },
   plugins: [
